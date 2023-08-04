@@ -1,0 +1,5 @@
+export { default as LandingSection } from './LandingSection'
+export { default as AboutusSection } from './AboutUsSection'
+export { default as FinditSection } from './FinditSection'
+export { default as HowToBuySection} from './HowToBuySection'
+export * from './Commons'
