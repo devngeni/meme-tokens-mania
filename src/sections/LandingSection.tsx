@@ -17,9 +17,9 @@ export default function LandingSection() {
             Welcome to <span>Meme Token </span>Universe! 🚀
           </LandingTitle>
           <LandingSubtitle>
-            Are you ready to explore the metaverse's wildest, most innovative,
+            Are you ready to explore the metaverse&apos;s wildest, most innovative,
             and downright funniest meme tokens? Buckle up and grab your digital
-            wallets, because you're about to enter the MemeTokenMania universe!
+            wallets, because you&apos;re about to enter the MemeTokenMania universe!
           </LandingSubtitle>
           <LandingButton>Explore</LandingButton>
         </AboutTextWrapper>
