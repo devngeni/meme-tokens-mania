@@ -1,28 +1,32 @@
-import { Quicksand } from "next/font/google";
+import { PT_Sans } from "next/font/google";
 import { PageLayout } from "@/Layouts";
 import {
   AboutusSection,
-  BodyWrapper,
   FinditSection,
   LandingSection,
   HowToBuySection,
+  Tokenomics,
+  RoadMap,
 } from "@/sections";
+import { BodyWrapper } from "@/sections/Commons";
 
-const fontFamily = Quicksand({
+const fontFamily = PT_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "700"],
 });
 
 export default function Home() {
   return (
     <main className={fontFamily.className}>
       <PageLayout>
-      <LandingSection />
-      <BodyWrapper>
+        <LandingSection />
+        <BodyWrapper>
           <AboutusSection />
           <FinditSection />
         </BodyWrapper>
         <HowToBuySection />
+        <Tokenomics />
+        <RoadMap />
       </PageLayout>
     </main>
   );
