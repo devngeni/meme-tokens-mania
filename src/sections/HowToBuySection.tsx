@@ -26,7 +26,7 @@ export default function HowToBuySection() {
     {
       title: "Go to Pancakeswap",
       image: "Waver.svg",
-      text: "Connect to Uniswap. Go to app.uniswap.org in Google Chrome or on the browser inside your MetaMask app. Connect your wallet. Paste the $MemeTokenMania token address into Uniswap, select MemeTokenMania, and confirm. When MetaMask prompts you for a wallet signature, sign.",
+      text: "Connect to Pancakeswap. Go to app.Pancakeswap.org in Google Chrome or on the browser inside your MetaMask app. Connect your wallet. Paste the $MemeTokenMania token address into Uniswap, select MemeTokenMania, and confirm. When MetaMask prompts you for a wallet signature, sign.",
     },
     {
       title: "Switch ETH for $MemeTokenMania",

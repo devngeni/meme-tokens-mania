@@ -5,17 +5,23 @@ export const LandingContainer = styled(BodyContainer)`
   height: auto;
   flex-direction: column;
   position: relative;
+  background: url("Gradient.svg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  opacity: 1;
   &::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    background: url("Gradient.svg");
+    background: url("/Orb.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
+    background-size: contain;
+    background-position: left;
     width: 100%;
     height: 100%;
+    opacity: 0.1;
   }
 `;
 export const LanndingWrapper = styled.div`
