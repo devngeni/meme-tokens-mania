@@ -50,11 +50,12 @@ export default function RoadMap() {
           Road<span>Map</span>
         </RoadmapTitle>
         <RoadMapP>
-          "Alright folks, grab your meme-tinted glasses and buckle up! Here&apos;s a
-          sneak peek of $MemeTokenMania&apos;s wild journey ahead. But remember, we're like
-          that fun uncle at family gatherings &#x5f; always full of unexpected tricks
-          and treats. So keep those peepers peeled, because the meme magic has
-          only just begun! 😜🚀 #ToTheMemeVerseAndBeyond"
+          &#x275D;Alright folks, grab your meme-tinted glasses and buckle up!
+          Here&apos;s a sneak peek of $MemeTokenMania&apos;s wild journey ahead.
+          But remember, we&#x275C;re like that fun uncle at family gatherings &#x5f;
+          always full of unexpected tricks and treats. So keep those peepers
+          peeled, because the meme magic has only just begun! 😜🚀
+          #ToTheMemeVerseAndBeyond &#x275E;
         </RoadMapP>
 
         <RoadmapCardWrapper>

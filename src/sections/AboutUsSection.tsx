@@ -20,7 +20,7 @@ export default function AboutusSection() {
           <AboutSubtitle>
             MemeTokens Mania is a community-driven platform that aims to
             democratize the meme token space. By forging a path of zero taxes,
-            LP burns, contract renunciation, and relentless originality, we're
+            LP burns, contract renunciation, and relentless originality, we&#x275C;re
             redefining the meme token space. Join us in our mission to combat
             meme token rugs, explore the universe of authentic meme tokens, and
             become a part of a community where laughter and wealth coalesce.
