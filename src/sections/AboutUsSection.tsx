@@ -5,7 +5,7 @@ import {
   AboutTextWrapper,
   AboutTitle,
   AboutWrapper,
-  AboutImageWrapper,
+  AboutImageWrapper
 } from "./About.Styles";
 
 export default function AboutusSection() {
@@ -15,20 +15,20 @@ export default function AboutusSection() {
         <AboutImageWrapper />
         <AboutTextWrapper>
           <AboutTitle>
-            <span>About</span> MemeTokens Mania
+            🌌 What is <span>WWElon?</span> 🌌
           </AboutTitle>
+          <AboutSubtitle>WWElon is not just a meme coin;</AboutSubtitle>
           <AboutSubtitle>
-            MemeTokens Mania is a community-driven platform that aims to
-            democratize the meme token space. By forging a path of zero taxes,
-            LP burns, contract renunciation, and relentless originality, we&#x275C;re
-            redefining the meme token space. Join us in our mission to combat
-            meme token rugs, explore the universe of authentic meme tokens, and
-            become a part of a community where laughter and wealth coalesce.
-            With MemeTokenMania, the memes are real, the community is strong,
-            and the potential is limitless. Invest responsibly, and remember,
-            the future is memes!
+            It&apos;s the dazzling result of blending the limitless imagination
+            of a space pioneer with the mystique of a tech titan. Behold the
+            birth of WWElon, Experience the inception of a crypto legend as it
+            bursts forth like a comet, leaving a trail of awe and amazement. As
+            the token gains momentum, join us on an odyssey through the
+            blockchain, filled with exhilarating partnerships, out-of-this-world
+            giveaways, and events that&apos;ll outshine the brightest
+            constellations.
           </AboutSubtitle>
-          <AboutButton>Buy some</AboutButton>
+          <AboutButton>Discover More</AboutButton>
         </AboutTextWrapper>
       </AboutWrapper>
     </AboutContainer>

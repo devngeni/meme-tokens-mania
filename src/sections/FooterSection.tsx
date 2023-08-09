@@ -6,31 +6,31 @@ import {
   FooterText,
   FooterTextWrapper,
   FooterTitle,
-  FooterWrapper,
+  FooterWrapper
 } from "./FooterStyles";
 
 export default function Footer() {
   const footerData = [
     {
       text: "about",
-      link: "#aboutus",
+      link: "#aboutus"
     },
     {
       text: "tokenomics",
-      link: "#tokenomics",
+      link: "#tokenomics"
     },
     {
       text: "roadmap",
-      link: "#roadmap",
+      link: "#roadmap"
     },
     {
       text: "how to buy",
-      link: "#howtobuy",
+      link: "#howtobuy"
     },
     {
       text: "contact",
-      link: "#contact",
-    },
+      link: "#contact"
+    }
   ];
   return (
     <FooterContainer>
@@ -40,7 +40,7 @@ export default function Footer() {
         </FooterImg>
         <FooterTextWrapper>
           <FooterTitle>
-            Copyright &#xa9; {new Date().getFullYear()} DARKTOKEN. All rights
+            Copyright &#xa9; {new Date().getFullYear()} WWElon. All rights
             reserved.
           </FooterTitle>
           <FooterSubtitle>
