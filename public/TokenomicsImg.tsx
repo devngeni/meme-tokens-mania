@@ -403,7 +403,7 @@ export default function TokenomicsImage() {
                 width="200"
                 style={{ textOverflow: "ellipsis", whiteSpace: "nowrap" }}
               >
-                Dividends to AIDOGE Stakers
+                Dividends to MEMeTOKENMANIA Stakers
               </text>
             </g>
           </g>
