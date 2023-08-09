@@ -20,9 +20,11 @@ const WelcomeText = styled.h1`
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   background-size: cover;
   color: transparent;
-  font-size: 120px;
+  font-size: 5rem;
   margin: 10px 0;
   text-transform: uppercase;
+  display: flex;
+  text-align: center;
 `;
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -39,7 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
   if (loading) {
     return (
       <WelcomeBody>
-        <WelcomeText>Welcome to Meme Token Mania</WelcomeText>
+        <WelcomeText>🥊Join The Ultimate Crypto Showdown!🥊</WelcomeText>
       </WelcomeBody>
     );
   }

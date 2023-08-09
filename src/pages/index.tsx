@@ -1,4 +1,4 @@
-import { PT_Sans } from "next/font/google";
+import { Chakra_Petch } from "next/font/google";
 import { PageLayout } from "@/Layouts";
 import {
   AboutusSection,
@@ -10,9 +10,9 @@ import {
 } from "@/sections";
 import { BodyWrapper } from "@/sections/Commons";
 
-const fontFamily = PT_Sans({
+const fontFamily = Chakra_Petch({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
 });
 
 export default function Home() {

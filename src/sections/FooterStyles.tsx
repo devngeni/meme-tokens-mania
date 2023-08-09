@@ -14,7 +14,7 @@ export const FooterWrapper = styled.div`
   gap: 2rem;
 `;
 export const FooterTitle = styled.h1`
-  font-family: "PT Sans", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 1.2rem;
 `;
 export const FooterSubtitle = styled.div`

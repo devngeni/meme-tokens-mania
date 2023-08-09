@@ -49,9 +49,9 @@ export const LandingTitle = styled.h1`
 `;
 export const LandingSubtitle = styled.h2`
   font-family: "PT Sans", sans-serif, sans-serif "Space Grotesk", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.5;
   width: 100%;
 `;
 export const LandingButton = styled.button`

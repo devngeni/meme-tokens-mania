@@ -33,7 +33,7 @@ export const NavbarTextWrapper = styled.div`
   gap: 2rem;
 `;
 export const NavbarText = styled.div`
-  font-family: "PT Sans", sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
