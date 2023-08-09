@@ -13,6 +13,13 @@ export const AboutWrapper = styled.div`
   gap: 2rem;
   position: relative;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5% 0;
+  }
 `;
 export const AboutTitle = styled.h1`
   font-family: "Optien", sans-serif;
@@ -20,7 +27,13 @@ export const AboutTitle = styled.h1`
   font-weight: 900;
   line-height: 1.2;
   span {
-    color: #e701f7;
+    background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
   }
 `;
 export const AboutSubtitle = styled.h2`
@@ -28,6 +41,13 @@ export const AboutSubtitle = styled.h2`
   font-size: 1.5rem;
   font-weight: 400;
   line-height: normal;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    color: #c1c1c1;
+    span {
+      color: #fff;
+    }
+  }
 `;
 export const AboutButton = styled(LandingButton)``;
 export const AboutTextWrapper = styled.div`
@@ -36,6 +56,12 @@ export const AboutTextWrapper = styled.div`
   justify-content: center;
   gap: 2rem;
   width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
 `;
 export const AboutImageWrapper = styled.div`
   width: 50%;
@@ -47,6 +73,10 @@ export const AboutImageWrapper = styled.div`
   border-radius: 20px;
   position: relative;
   z-index: 1;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 30vh;
+  }
 `;
 export const FindWrapper = styled.div`
   width: 80%;
@@ -55,6 +85,15 @@ export const FindWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    gap: 1rem;
+    padding: 5% 0;
+  }
 `;
 export const LogoWrapper = styled.div`
   background: linear-gradient(
@@ -69,6 +108,14 @@ export const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
 `;
 export const FindContainer = styled.div`
   width: 40%;
@@ -78,4 +125,9 @@ export const FindContainer = styled.div`
   align-items: center;
   height: 100%;
   gap: 2rem;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+  }
 `;

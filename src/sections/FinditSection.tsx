@@ -24,7 +24,7 @@ export default function FinditSection() {
           <LandingTitle>
             Contact <span>Us</span>
           </LandingTitle>
-          <FooterSubtitle>
+          <FooterSubtitle style={{ flexDirection: "row" }}>
             <LogoWrapper>
               <Twitter />
             </LogoWrapper>

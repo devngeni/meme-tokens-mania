@@ -4,6 +4,9 @@ import { BodyContainer } from "./Commons";
 
 export const TokenomicsContainer = styled(BodyContainer)`
   height: 100vh;
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
 `;
 export const TokenomicsWrapper = styled.div`
   width: 80%;
@@ -13,11 +16,19 @@ export const TokenomicsWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    gap: 1rem;
+    padding: 5% 0;
+  }
 `;
 export const TokenomicsTitle = styled(LandingTitle)`
   display: flex;
   width: 100%;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 export const TokenomicsSubtitle = styled.h2``;
 export const TokenomicsText = styled.div``;
@@ -28,4 +39,7 @@ export const TokenomicsImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    height: 20vh;
+  }
 `;

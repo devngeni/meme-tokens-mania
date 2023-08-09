@@ -10,6 +10,9 @@ export const HowContainer = styled(BodyContainer)`
   flex-direction: column;
   gap: 2rem;
   margin: auto;
+  @media screen and (max-width: 768px) {
+    height: 100%;
+  }
 `;
 export const HowWrapper = styled.div`
   position: relative;
@@ -26,7 +29,10 @@ export const HowSubtitle = styled.h2`
   font-size: 1.8rem;
   font-weight: 400;
   line-height: normal;
-  color: #e701f7;
+  background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `;
 export const HowText = styled.div`
   font-family: "Chakra Petch", sans-serif;
@@ -50,4 +56,9 @@ export const HowCard = styled.div`
   gap: 2rem;
   background: url("Gradient.svg");
   padding: 2%;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
 `;

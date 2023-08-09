@@ -25,6 +25,9 @@ const WelcomeText = styled.h1`
   text-transform: uppercase;
   display: flex;
   text-align: center;
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
+  }
 `;
 
 export default function App({ Component, pageProps }: AppProps) {

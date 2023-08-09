@@ -7,7 +7,8 @@ import {
   RoadMapText,
   RoadMapList,
   RoadmapSubtitle,
-  RoadMapP
+  RoadMapP,
+  RoadMapHeader,
 } from "./RoadmapStyles";
 
 export default function RoadMap() {
@@ -19,8 +20,8 @@ export default function RoadMap() {
         "🌟 Community Building",
         "💎 Listing and Partnerships",
         "Get $WWElon Trending on twitter with our memetic power",
-        "1,000+ Holders"
-      ]
+        "1,000+ Holders",
+      ],
     },
     {
       title: "Expansion 🛸",
@@ -28,8 +29,8 @@ export default function RoadMap() {
         "🌐 Ecosystem Development",
         "🌌 NFTs and Digital Collectibles",
         "CEX Listings",
-        "10,000+holders"
-      ]
+        "10,000+holders",
+      ],
     },
     {
       title: "Leaps 🌀",
@@ -38,8 +39,8 @@ export default function RoadMap() {
         "WWElon Academy",
         "🌍 Charitable Initiatives",
         "🌠 Game-Changing Features",
-        "100,000+ holders"
-      ]
+        "100,000+ holders",
+      ],
     },
     {
       title: "Enlightenment ✨",
@@ -47,14 +48,18 @@ export default function RoadMap() {
         "🌄 Decentralization and Governance",
         "🔒 Sustainability and Security",
         "🚀 Legacy and Beyond",
-        "1000,000+holders"
-      ]
-    }
+        "1000,000+holders",
+      ],
+    },
   ];
 
   return (
     <RoadmapContainer>
-      <RoadmapWrapper>
+      <RoadmapWrapper
+        style={{
+          textAlign: "start",
+        }}
+      >
         <RoadmapTitle>
           Road<span>Map</span>
         </RoadmapTitle>
@@ -70,7 +75,7 @@ export default function RoadMap() {
         <RoadmapCardWrapper>
           {roadMapData.map((roadMap, index) => (
             <RoadMapCard key={index}>
-              <RoadmapSubtitle>{roadMap.title}</RoadmapSubtitle>
+              <RoadMapHeader>{roadMap.title}</RoadMapHeader>
               <RoadMapList>
                 {roadMap.content.map((item, itemIndex) => (
                   <RoadMapText key={itemIndex}>{item}</RoadMapText>

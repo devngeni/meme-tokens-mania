@@ -36,15 +36,27 @@ export const LanndingWrapper = styled.div`
   position: relative;
   z-index: 1;
   opacity: 1;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 `;
 export const LandingTitle = styled.h1`
   font-family: "Optien", sans-serif;
   font-size: 6.5rem;
   font-weight: 900;
-  line-height: 1.0;
+  line-height: 1;
   width: 100%;
   span {
-    color: #e701f7;
+    background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 4rem;
   }
 `;
 export const LandingSubtitle = styled.h2`
@@ -53,6 +65,10 @@ export const LandingSubtitle = styled.h2`
   font-weight: 400;
   line-height: 1.5;
   width: 100%;
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+    color: #c1c1c1;
+  }
 `;
 export const LandingButton = styled.button`
   background: radial-gradient(
@@ -86,6 +102,9 @@ export const LandingImage = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -98,6 +117,9 @@ export const TextWrapper = styled.div`
   background: #000;
   border-radius: 0 160px;
   padding: 5%;
+  @media screen and (max-width: 768px) {
+    padding: 17%;
+  }
 `;
 
 export const StyledText = styled.p`
@@ -106,11 +128,26 @@ export const StyledText = styled.p`
   }
   &:nth-child(2) {
     margin-right: -16%;
-    color: #e701f7;
+    background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   &:nth-child(3) {
     margin-right: -39%;
   }
   font-family: "Optien", sans-serif;
   font-size: 5.5rem;
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+    &:nth-child(1) {
+      margin-right: 0;
+    }
+    &:nth-child(2) {
+      margin-right: 0;
+    }
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+  }
 `;

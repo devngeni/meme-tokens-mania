@@ -31,6 +31,9 @@ export const NavbarTextWrapper = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const NavbarText = styled.div`
   font-family: "Chakra Petch", sans-serif;

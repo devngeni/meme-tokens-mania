@@ -17,7 +17,7 @@ export default function AboutusSection() {
           <AboutTitle>
             🌌 What is <span>WWElon?</span> 🌌
           </AboutTitle>
-          <AboutSubtitle>WWElon is not just a meme coin;</AboutSubtitle>
+          <AboutSubtitle><span>WWElon is not just a meme coin;</span></AboutSubtitle>
           <AboutSubtitle>
             It&apos;s the dazzling result of blending the limitless imagination
             of a space pioneer with the mystique of a tech titan. Behold the
