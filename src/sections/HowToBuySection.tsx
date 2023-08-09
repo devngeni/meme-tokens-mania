@@ -7,7 +7,7 @@ import {
   HowTextWrapper,
   HowTitle,
   HowWrapper,
-  HowText,
+  HowText
 } from "./HowToBuyStyles";
 import { RoadmapWrapper } from "./RoadmapStyles";
 
@@ -16,23 +16,24 @@ export default function HowToBuySection() {
     {
       title: "Create a Wallet",
       image: "/Wave.svg",
-      text: "Download MetaMask or your wallet of choice from the App Store or Google Play Store for free. Desktop users, download the Google Chrome extension by going to metamask.io.",
+      text: "Before you buy $EWWE, you will need to have a cryptocurrency wallet that supports Ethereum. We recommend having a look at Metamask or Trust wallet."
     },
     {
       title: "Get Some ETH",
       image: "/Headimg.svg",
-      text: "Have ETH in your wallet to switch to $MemeTokenMania. If you don’t have any ETH, you can buy directly on MetaMask, transfer from another wallet, or buy on another exchange and send it to your wallet.",
+      text: "In order to buy $EWWE, you will need to first buy (ETH) from a cryptocurrency exchange. There are many exchanges to choose from, including Coinbase, Binance, and Kraken."
     },
-    {
-      title: "Go to Pancakeswap",
-      image: "Waver.svg",
-      text: "Connect to Pancakeswap. Go to app.Pancakeswap.org in Google Chrome or on the browser inside your MetaMask app. Connect your wallet. Paste the $MemeTokenMania token address into Uniswap, select MemeTokenMania, and confirm. When MetaMask prompts you for a wallet signature, sign.",
-    },
+
     {
       title: "Switch ETH for $MemeTokenMania",
       image: "Wave.svg",
-      text: "Switch ETH for $MemeTokenMania. We have ZERO taxes so you don’t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.",
+      text: "Once you have ETH in your wallet, you can exchange it for WWElon on a decentralized exchange (DEX) such as Uniswap. Simply connect your wallet to the DEX and place a swap order for WWElon."
     },
+    {
+      title: "HODL $EWWE",
+      image: "Waver.svg",
+      text: "Become a proud member of a community that's taking the crypto world by storm. Remember - you're not just investing in a token; you're investing in a journey. Always do your own research and invest responsibly."
+    }
   ];
   return (
     <HowWrapper>
@@ -51,14 +52,14 @@ export default function HowToBuySection() {
           zIndex: "-1",
           opacity: 0.3,
           boxShadow: "0px 0px 20px 20px #000000",
-          borderRadius: "20px",
+          borderRadius: "20px"
         }}
         src="https://unibot.app/static/media/unibotHeroAnimation.mp4"
       ></video>
       <HowContainer>
         <RoadmapWrapper
           style={{
-            gap: "2rem",
+            gap: "2rem"
           }}
         >
           <HowTitle>

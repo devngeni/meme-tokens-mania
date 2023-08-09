@@ -41,7 +41,7 @@ export const LandingTitle = styled.h1`
   font-family: "Optien", sans-serif;
   font-size: 6.5rem;
   font-weight: 900;
-  line-height: 1.2;
+  line-height: 1.0;
   width: 100%;
   span {
     color: #e701f7;
