@@ -10,8 +10,11 @@ export const HowContainer = styled(BodyContainer)`
   flex-direction: column;
   gap: 2rem;
   margin: auto;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1300px) {
     height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+  text-align: center;
   }
 `;
 export const HowWrapper = styled.div`
@@ -26,7 +29,7 @@ export const HowTitle = styled(LandingTitle)`
 `;
 export const HowSubtitle = styled.h2`
   font-family: "Optien", sans-serif;
-  font-size: 1.8rem;
+  font-size: clamp(1.2rem, calc(1.2rem + ((1vw - 0.1375rem) * 0.5714)), 1.8rem);
   font-weight: 400;
   line-height: normal;
   background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
@@ -36,12 +39,19 @@ export const HowSubtitle = styled.h2`
 `;
 export const HowText = styled.div`
   font-family: "Chakra Petch", sans-serif;
-  font-size: 1rem;
+  font-size: clamp(0.5rem, calc(0.5rem + ((1vw - 0.1375rem) * 0.4762)), 1rem);
   font-weight: 400;
   line-height: 1.5;
   color: #a6a6a6;
 `;
-export const HowTextWrapper = styled.div``;
+export const HowTextWrapper = styled.div`
+display: flex;
+flex-direction: column;
+text-align: start;
+@media screen and (max-width: 768px) {
+  text-align: center;
+}
+`;
 export const HowImageWrapper = styled.div``;
 export const HowCard = styled.div`
   border: 1px solid #080426;
@@ -52,9 +62,10 @@ export const HowCard = styled.div`
   border-radius: 20px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 2rem;
+  justify-content: start;
   background: url("Gradient.svg");
+  align-items: center;
   padding: 2%;
   @media screen and (max-width: 768px) {
     flex-direction: column;

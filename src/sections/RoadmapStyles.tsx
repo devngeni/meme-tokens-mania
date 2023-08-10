@@ -12,17 +12,14 @@ export const RoadmapWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1300px) {
     width: 90%;
     text-align: center;
     gap: 2rem;
   }
 `;
 export const RoadmapTitle = styled(LandingTitle)`
-  font-size: 6rem;
-  @media screen and (max-width: 768px) {
-    font-size: 3rem;
-  }
+  font-size: clamp(2rem, calc(2rem + ((1vw - 0.1375rem) * 4.2857)), 6.5rem);
 `;
 
 export const RoadmapSubtitle = styled(LandingTitle)`
@@ -30,13 +27,10 @@ export const RoadmapSubtitle = styled(LandingTitle)`
 `;
 
 export const RoadMapHeader = styled(LandingTitle)`
-font-size: 3rem;
-@media screen and (max-width: 768px) {
-  font-size: 2rem;
-}
+  font-size: clamp(1.5rem, calc(1.5rem + ((1vw - 0.1375rem) * 1.4286)), 3rem);
 `;
 export const RoadMapCard = styled.div`
-  width: 440px;
+ max-width: 440px;
   height: 50vh;
   background-color: #000;
   border-radius: 160px 0;
@@ -81,13 +75,12 @@ export const RoadMapText = styled.li`
 
 export const RoadMapP = styled.p`
   font-family: "Chakra Petch", sans-serif;
-  font-size: 1.2rem;
+  font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.1375rem) * 0.381)), 1.2rem);
   font-weight: 400;
   line-height: 1.5;
   color: #a6a6a6;
   width: 60%;
   @media screen and (max-width: 768px) {
     width: 100%;
-    font-size: 1rem;
   }
 `;

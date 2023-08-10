@@ -119,7 +119,7 @@ export const TextWrapper = styled.div`
   background: #000;
   border-radius: 0 160px;
   padding: 5%;
-  max-width: 300px;
+  max-width: 400px;
 
   & > div {
     margin-left: 0;
