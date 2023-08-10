@@ -18,6 +18,9 @@ export const NavbarWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   background: transparent;
+  @media screen and (max-width: 1300px) {
+    width: 90%;
+  }
 `;
 
 export const NavbarLogo = styled.div`

@@ -36,6 +36,9 @@ export const LanndingWrapper = styled.div`
   position: relative;
   z-index: 1;
   opacity: 1;
+  @media screen and (max-width: 1300px) {
+    width: 90%;
+  }
   @media screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
@@ -45,7 +48,7 @@ export const LanndingWrapper = styled.div`
 `;
 export const LandingTitle = styled.h1`
   font-family: "Optien", sans-serif;
-  font-size: 6.5rem;
+  font-size: clamp(2rem, calc(2rem + ((1vw - 0.1375rem) * 4.2857)), 6.5rem);
   font-weight: 900;
   line-height: 1;
   width: 100%;
@@ -55,18 +58,14 @@ export const LandingTitle = styled.h1`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  @media screen and (max-width: 768px) {
-    font-size: 4rem;
-  }
 `;
 export const LandingSubtitle = styled.h2`
   font-family: "PT Sans", sans-serif, sans-serif "Space Grotesk", sans-serif;
-  font-size: 1.2rem;
+  font-size: clamp(0.7rem, calc(0.7rem + ((1vw - 0.1375rem) * 0.4762)), 1.2rem);
   font-weight: 400;
   line-height: 1.5;
   width: 100%;
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
     color: #c1c1c1;
   }
 `;
@@ -94,6 +93,9 @@ export const LandingButton = styled.button`
   color: #fff;
   font-family: "PT Sans", sans-serif, sans-serif "Space Grotesk", sans-serif;
   font-size: 1.2rem;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
 export const LandingImage = styled.div`
   width: 50%;
@@ -117,6 +119,30 @@ export const TextWrapper = styled.div`
   background: #000;
   border-radius: 0 160px;
   padding: 5%;
+  max-width: 300px;
+
+  & > div {
+    margin-left: 0;
+    transition: margin-left 0.2s ease-in-out;
+  }
+
+  & > div:nth-child(2) {
+    margin-left: 40px;
+  }
+
+  & > div:nth-child(3) {
+    margin-left: 80px;
+  }
+
+  @media (max-width: 600px) {
+    & > div:nth-child(2) {
+      margin-left: 20px;
+    }
+
+    & > div:nth-child(3) {
+      margin-left: 40px;
+    }
+  }
   @media screen and (max-width: 768px) {
     padding: 17%;
   }
@@ -127,7 +153,6 @@ export const StyledText = styled.p`
     margin-right: 5%;
   }
   &:nth-child(2) {
-    margin-right: -16%;
     background: linear-gradient(17deg, #ffd2ed 1.45%, #01baef 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -137,9 +162,8 @@ export const StyledText = styled.p`
     margin-right: -39%;
   }
   font-family: "Optien", sans-serif;
-  font-size: 5.5rem;
+  font-size: clamp(2rem, calc(2rem + ((1vw - 0.1375rem) * 3.3333)), 5.5rem);
   @media screen and (max-width: 768px) {
-    font-size: 3rem;
     &:nth-child(1) {
       margin-right: 0;
     }

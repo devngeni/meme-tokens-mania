@@ -23,7 +23,7 @@ export const AboutWrapper = styled.div`
 `;
 export const AboutTitle = styled.h1`
   font-family: "Optien", sans-serif;
-  font-size: 6.5rem;
+  font-size: clamp(2rem, calc(2rem + ((1vw - 0.1375rem) * 4.2857)), 6.5rem);
   font-weight: 900;
   line-height: 1.2;
   span {
@@ -32,17 +32,13 @@ export const AboutTitle = styled.h1`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  @media screen and (max-width: 768px) {
-    font-size: 4rem;
-  }
 `;
 export const AboutSubtitle = styled.h2`
   font-family: "PT Sans", sans-serif, sans-serif "Space Grotesk", sans-serif;
-  font-size: 1.5rem;
+  font-size: clamp(0.7rem, calc(0.7rem + ((1vw - 0.1375rem) * 0.4762)), 1.2rem);
   font-weight: 400;
   line-height: normal;
   @media screen and (max-width: 768px) {
-    font-size: 1rem;
     color: #c1c1c1;
     span {
       color: #fff;
@@ -56,11 +52,13 @@ export const AboutTextWrapper = styled.div`
   justify-content: center;
   gap: 2rem;
   width: 50%;
+  @media screen and (max-width: 1300px) {
+    gap: 1rem;
+  }
   @media screen and (max-width: 768px) {
     width: 100%;
     align-items: center;
     text-align: center;
-    gap: 1rem;
   }
 `;
 export const AboutImageWrapper = styled.div`
@@ -108,6 +106,14 @@ export const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 1300px) {
+    width: 70px;
+    height: 70px;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
   @media screen and (max-width: 768px) {
     width: 50px;
     height: 50px;
@@ -125,6 +131,10 @@ export const FindContainer = styled.div`
   align-items: center;
   height: 100%;
   gap: 2rem;
+  @media screen and (max-width: 1300px) {
+    width: 50%;
+    align-items: flex-start;
+  }
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 100%;
