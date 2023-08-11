@@ -10,7 +10,7 @@ import {
 
 export default function AboutusSection() {
   return (
-    <AboutContainer>
+    <AboutContainer id="aboutus">
       <AboutWrapper>
         <AboutImageWrapper />
         <AboutTextWrapper>
