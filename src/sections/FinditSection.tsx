@@ -6,15 +6,16 @@ import {
   AboutContainer,
   FindContainer,
   FindWrapper,
-  LogoWrapper
+  LogoWrapper,
 } from "./About.Styles";
 import {
   TextWrapper,
   StyledText,
   LandingButton,
-  LandingTitle
+  LandingTitle,
 } from "./Landing.Styles";
 import { FooterSubtitle } from "./FooterStyles";
+import { Tweet } from "react-tweet";
 
 export default function FinditSection() {
   return (
@@ -34,6 +35,10 @@ export default function FinditSection() {
             <LogoWrapper>
               <Discord />
             </LogoWrapper>
+          </FooterSubtitle>
+
+          <FooterSubtitle>
+            <Tweet id="1688396475464642560" />
           </FooterSubtitle>
         </FindContainer>
         <FindContainer>
