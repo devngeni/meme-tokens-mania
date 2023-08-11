@@ -110,6 +110,7 @@ export const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
   @media screen and (max-width: 1300px) {
     width: 70px;
     height: 70px;
