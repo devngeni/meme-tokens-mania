@@ -6,19 +6,19 @@ import {
   AboutContainer,
   FindContainer,
   FindWrapper,
-  LogoWrapper,
+  LogoWrapper
 } from "./About.Styles";
 import {
   TextWrapper,
   StyledText,
   LandingButton,
-  LandingTitle,
+  LandingTitle
 } from "./Landing.Styles";
 import { FooterSubtitle } from "./FooterStyles";
 
 export default function FinditSection() {
   return (
-    <AboutContainer>
+    <AboutContainer id="contact">
       <FindWrapper>
         <FindContainer>
           <LandingTitle>

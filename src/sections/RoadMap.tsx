@@ -54,10 +54,10 @@ export default function RoadMap() {
   ];
 
   return (
-    <RoadmapContainer>
+    <RoadmapContainer id="roadmap">
       <RoadmapWrapper
         style={{
-          textAlign: "start",
+          textAlign: "start"
         }}
       >
         <RoadmapTitle>

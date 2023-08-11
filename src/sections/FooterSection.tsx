@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "../../public/Logo";
 import {
   FooterContainer,
@@ -45,7 +46,9 @@ export default function Footer() {
           </FooterTitle>
           <FooterSubtitle>
             {footerData.map((item, index) => (
-              <FooterText key={index}>{item.text}</FooterText>
+              <FooterText key={index}>
+                <Link href={item.link}> {item.text}</Link>
+              </FooterText>
             ))}
           </FooterSubtitle>
         </FooterTextWrapper>

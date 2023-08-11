@@ -56,7 +56,7 @@ export default function HowToBuySection() {
         }}
         src="https://unibot.app/static/media/unibotHeroAnimation.mp4"
       ></video>
-      <HowContainer>
+      <HowContainer id="howtobuy">
         <RoadmapWrapper
           style={{
             gap: "2rem"

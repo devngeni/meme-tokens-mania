@@ -9,7 +9,7 @@ import {
 
 export default function Tokenomics() {
   return (
-    <TokenomicsContainer>
+    <TokenomicsContainer id="tokenomics">
       <TokenomicsWrapper>
         <TokenomicsTitle>
           Toke<span>nomics</span>
