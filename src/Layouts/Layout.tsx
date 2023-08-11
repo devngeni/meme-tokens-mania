@@ -15,7 +15,7 @@ export default function PageLayout({ children }: LayoutProps) {
           content="Unleashing Laughter, Building Wealth: No bullsiting just Your Gateway to the Meme Token Universe! 🚀"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav>
         <Navbar />
