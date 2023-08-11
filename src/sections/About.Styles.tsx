@@ -64,13 +64,17 @@ export const AboutTextWrapper = styled.div`
 export const AboutImageWrapper = styled.div`
   width: 50%;
   height: 60%;
-  background: url("/imagine.png");
+  background: url("/Musk2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
   z-index: 1;
+  @media screen and (max-width: 1300px) {
+    width: 50%;
+    height: 50%;
+  }
   @media screen and (max-width: 768px) {
     width: 100%;
     height: 30vh;

@@ -24,11 +24,11 @@ export const LandingContainer = styled(BodyContainer)`
     opacity: 0.1;
   }
 `;
-export const LanndingWrapper = styled.div`
+export const LandingWrapper = styled.div`
   width: 80%;
   height: 100vh;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
@@ -40,7 +40,8 @@ export const LanndingWrapper = styled.div`
     width: 90%;
   }
   @media screen and (max-width: 768px) {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -98,14 +99,18 @@ export const LandingButton = styled.button`
   }
 `;
 export const LandingImage = styled.div`
-  width: 50%;
-  height: 100%;
-  background: url("/Card.svg");
-  background-size: contain;
+  width: 100%;
+  height: 60%;
+  background: url("/Musk4.png");
+  border-radius: 20px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
   @media screen and (max-width: 768px) {
-    display: none;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
   }
 `;
 

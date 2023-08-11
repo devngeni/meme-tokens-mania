@@ -2,7 +2,25 @@ import { styled } from "styled-components";
 import { BodyContainer } from "./Commons";
 
 export const FooterContainer = styled(BodyContainer)`
-  background: #000;
+width: 100%;
+height: 100%;
+opacity: 1;
+position: relative;
+z-index: 1;
+&:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("/city.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
 `;
 export const FooterWrapper = styled.div`
   width: 80%;
@@ -34,7 +52,9 @@ export const FooterSubtitle = styled.div`
     gap: 1rem;
   }
 `;
-export const FooterText = styled.div``;
+export const FooterText = styled.div`
+cursor: pointer;
+`;
 export const FooterTextWrapper = styled.div`
   width: 100%;
   display: flex;
