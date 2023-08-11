@@ -6,16 +6,17 @@ import {
   AboutContainer,
   FindContainer,
   FindWrapper,
-  LogoWrapper,
+  LogoWrapper
 } from "./About.Styles";
 import {
   TextWrapper,
   StyledText,
   LandingButton,
-  LandingTitle,
+  LandingTitle
 } from "./Landing.Styles";
 import { FooterSubtitle } from "./FooterStyles";
 import { Tweet } from "react-tweet";
+import Link from "next/link";
 
 export default function FinditSection() {
   return (
@@ -27,10 +28,14 @@ export default function FinditSection() {
           </LandingTitle>
           <FooterSubtitle style={{ flexDirection: "row" }}>
             <LogoWrapper>
-              <Twitter />
+              <Link href="https://twitter.com/WWElonX" target="_blank">
+                <Twitter />
+              </Link>
             </LogoWrapper>
             <LogoWrapper>
-              <Telegram />
+              <Link href="https://t.me/+9gHv5XBZIyozZWY8" target="_blank">
+                <Telegram />
+              </Link>
             </LogoWrapper>
             <LogoWrapper>
               <Discord />
