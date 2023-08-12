@@ -94,7 +94,7 @@ export const FindWrapper = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 90vh;
+    height: 100%;
     gap: 1rem;
     padding: 5% 0;
   }
@@ -112,6 +112,7 @@ export const LogoWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
   @media screen and (max-width: 1300px) {
     width: 70px;
     height: 70px;
@@ -140,7 +141,7 @@ export const FindContainer = styled.div`
   position: relative;
   @media screen and (max-width: 1300px) {
     width: 50%;
-    align-items: flex-start;
+    align-items: center;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
