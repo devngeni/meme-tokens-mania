@@ -20,6 +20,26 @@ import { Tweet } from "react-tweet";
 export default function FinditSection() {
   return (
     <AboutContainer id="contact">
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "-1",
+          opacity: 0.3,
+          boxShadow: "0px 0px 20px 20px #000000",
+          borderRadius: "20px",
+        }}
+      >
+        <source src="/muskVideo.mp4" type="video/mp4" />
+      </video>
       <FindWrapper>
         <FindContainer>
           <LandingTitle>

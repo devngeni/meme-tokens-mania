@@ -2,7 +2,9 @@ import { styled } from "styled-components";
 import { LandingButton } from "./Landing.Styles";
 import { BodyContainer } from "./Commons";
 
-export const AboutContainer = styled(BodyContainer)``;
+export const AboutContainer = styled(BodyContainer)`
+position: relative;
+`;
 export const AboutWrapper = styled.div`
   width: 80%;
   height: 100vh;
@@ -135,6 +137,7 @@ export const FindContainer = styled.div`
   align-items: center;
   height: 100%;
   gap: 2rem;
+  position: relative;
   @media screen and (max-width: 1300px) {
     width: 50%;
     align-items: flex-start;
