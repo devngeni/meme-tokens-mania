@@ -37,7 +37,7 @@ export const AboutTitle = styled.h1`
 `;
 export const AboutSubtitle = styled.h2`
   font-family: "PT Sans", sans-serif, sans-serif "Space Grotesk", sans-serif;
-  font-size: clamp(0.7rem, calc(0.7rem + ((1vw - 0.1375rem) * 0.4762)), 1.2rem);
+  font-size: clamp(0.9rem, calc(0.9rem + ((1vw - 0.1375rem) * 0.2857)), 1.2rem);
   font-weight: 400;
   line-height: normal;
   @media screen and (max-width: 768px) {

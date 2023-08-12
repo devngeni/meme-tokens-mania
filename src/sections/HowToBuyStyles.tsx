@@ -39,7 +39,7 @@ export const HowSubtitle = styled.h2`
 `;
 export const HowText = styled.div`
   font-family: "Chakra Petch", sans-serif;
-  font-size: clamp(0.5rem, calc(0.5rem + ((1vw - 0.1375rem) * 0.4762)), 1rem);
+  font-size: clamp(0.9rem, calc(0.9rem + ((1vw - 0.1375rem) * 0.2857)), 1.2rem);
   font-weight: 400;
   line-height: 1.5;
   color: #a6a6a6;
