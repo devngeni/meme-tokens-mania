@@ -52,6 +52,20 @@ export const FooterSubtitle = styled.div`
     gap: 1rem;
   }
 `;
+
+export const FooterImage = styled.div`
+width: 30vw;
+height: 60vh;
+background: url("/cometrump.gif");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 12px;
+@media screen and (max-width: 768px) {
+  width: 100%;
+  background-size: contain;
+}
+`;
 export const FooterText = styled.div`
 cursor: pointer;
 `;

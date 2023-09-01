@@ -66,7 +66,7 @@ export const AboutTextWrapper = styled.div`
 export const AboutImageWrapper = styled.div`
   width: 50%;
   height: 60%;
-  background: url("/Musk2.png");
+  background: url("/donald.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
