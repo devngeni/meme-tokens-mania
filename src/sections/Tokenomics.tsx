@@ -1,3 +1,4 @@
+import Image from "next/image";
 import TokenomicsImage from "../../public/TokenomicsImg";
 import { RoadMapP } from "./RoadmapStyles";
 import {
@@ -25,9 +26,7 @@ export default function Tokenomics() {
           out there, give &#x201F;pepecexwallet.eth&#x201E; a quick peek on ENS.
           We&apos;re as transparent as Pepe&#x275C;s love for memes!&#x275E;
         </RoadMapP>
-        <TokenomicsImg>
-          <TokenomicsImage />
-        </TokenomicsImg>
+        <TokenomicsImg />
       </TokenomicsWrapper>
     </TokenomicsContainer>
   );

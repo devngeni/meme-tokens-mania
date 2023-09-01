@@ -6,22 +6,26 @@ import {
   AboutContainer,
   FindContainer,
   FindWrapper,
-  LogoWrapper
+  LogoWrapper,
 } from "./About.Styles";
 import {
   TextWrapper,
   StyledText,
   LandingButton,
-  LandingTitle
+  LandingTitle,
 } from "./Landing.Styles";
-import { FooterSubtitle } from "./FooterStyles";
+import { FooterImage, FooterSubtitle } from "./FooterStyles";
 import { Tweet } from "react-tweet";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FinditSection() {
+  const handleFindIt = () => {
+    window.open("https://app.uniswap.org/#/swap", "_blank");
+  }
   return (
     <AboutContainer id="contact">
-      <video
+      {/* <video
         autoPlay
         loop
         muted
@@ -40,11 +44,11 @@ export default function FinditSection() {
         }}
       >
         <source src="/muskVideo.mp4" type="video/mp4" />
-      </video>
+      </video> */}
       <FindWrapper>
         <FindContainer>
           <LandingTitle>
-            Contact <span>Us</span>
+            Find <span>XTRUMP</span>
           </LandingTitle>
           <FooterSubtitle style={{ flexDirection: "row" }}>
             <LogoWrapper>
@@ -62,9 +66,7 @@ export default function FinditSection() {
             </LogoWrapper>
           </FooterSubtitle>
 
-          <FooterSubtitle>
-            <Tweet id="1688396475464642560" />
-          </FooterSubtitle>
+          <FooterImage />
         </FindContainer>
         <FindContainer>
           <TextWrapper>
@@ -72,7 +74,7 @@ export default function FinditSection() {
             <StyledText>Buy it</StyledText>
             <StyledText>HODL it</StyledText>
           </TextWrapper>
-          <LandingButton>Learn How To Buy</LandingButton>
+          <LandingButton onClick={() => handleFindIt()}>Learn How To Buy</LandingButton>
         </FindContainer>
       </FindWrapper>
     </AboutContainer>
