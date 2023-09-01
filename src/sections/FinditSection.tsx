@@ -61,9 +61,9 @@ export default function FinditSection() {
                 <Telegram />
               </Link>
             </LogoWrapper>
-            <LogoWrapper>
+            {/* <LogoWrapper>
               <Discord />
-            </LogoWrapper>
+            </LogoWrapper> */}
           </FooterSubtitle>
 
           <FooterImage />
