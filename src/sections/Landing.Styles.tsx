@@ -101,7 +101,7 @@ export const LandingButton = styled.button`
 export const LandingImage = styled.div`
   width: 100%;
   height: 60%;
-  background: url("/Musk4.png");
+  background: url("/TRueXTrump.png");
   border-radius: 20px;
   background-size: cover;
   background-repeat: no-repeat;

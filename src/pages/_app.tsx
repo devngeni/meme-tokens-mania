@@ -44,7 +44,7 @@ export default function App({ Component, pageProps }: AppProps) {
   if (loading) {
     return (
       <WelcomeBody>
-        <WelcomeText>🥊Join The Ultimate Crypto Showdown!🥊</WelcomeText>
+        <WelcomeText> 🚀 XTrump Token: Reshaping the Future of Finance with Blockchain Innovation! 🌐</WelcomeText>
       </WelcomeBody>
     );
   }

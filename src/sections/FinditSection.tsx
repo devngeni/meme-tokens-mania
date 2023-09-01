@@ -48,12 +48,12 @@ export default function FinditSection() {
           </LandingTitle>
           <FooterSubtitle style={{ flexDirection: "row" }}>
             <LogoWrapper>
-              <Link href="https://twitter.com/WWElonX" target="_blank">
+              <Link href="https://twitter.com/xtrump_eth" target="_blank">
                 <Twitter />
               </Link>
             </LogoWrapper>
             <LogoWrapper>
-              <Link href="https://t.me/+9gHv5XBZIyozZWY8" target="_blank">
+              <Link href="https://t.me/OfficialTrumpXToken" target="_blank">
                 <Telegram />
               </Link>
             </LogoWrapper>
@@ -70,7 +70,7 @@ export default function FinditSection() {
           <TextWrapper>
             <StyledText>find it</StyledText>
             <StyledText>Buy it</StyledText>
-            <StyledText>Hold it</StyledText>
+            <StyledText>HODL it</StyledText>
           </TextWrapper>
           <LandingButton>Learn How To Buy</LandingButton>
         </FindContainer>

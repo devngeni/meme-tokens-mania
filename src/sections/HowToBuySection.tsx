@@ -16,21 +16,21 @@ export default function HowToBuySection() {
     {
       title: "Create a Wallet",
       image: "/Wave.svg",
-      text: "Before you buy $EWWE, you will need to have a cryptocurrency wallet that supports Ethereum. We recommend having a look at Metamask or Trust wallet."
+      text: "Before you buy $XTMP, you will need to have a cryptocurrency wallet that supports Ethereum. We recommend having a look at Metamask or Trust wallet."
     },
     {
       title: "Get Some ETH",
       image: "/Headimg.svg",
-      text: "In order to buy $EWWE, you will need to first buy (ETH) from a cryptocurrency exchange. There are many exchanges to choose from, including Coinbase, Binance, and Kraken."
+      text: "In order to buy $XTMP, you will need to first buy (ETH) from a cryptocurrency exchange. There are many exchanges to choose from, including Coinbase, Binance, and Kraken."
     },
 
     {
-      title: "Switch ETH for $MemeTokenMania",
+      title: "Switch ETH for $XTrump",
       image: "Wave.svg",
-      text: "Once you have ETH in your wallet, you can exchange it for WWElon on a decentralized exchange (DEX) such as Uniswap. Simply connect your wallet to the DEX and place a swap order for WWElon."
+      text: "Once you have ETH in your wallet, you can exchange it for XTrump on a decentralized exchange (DEX) such as Uniswap. Simply connect your wallet to the DEX and place a swap order for XTrump."
     },
     {
-      title: "HODL $EWWE",
+      title: "HODL $XTMP",
       image: "Waver.svg",
       text: "Become a proud member of a community that's taking the crypto world by storm. Remember - you're not just investing in a token; you're investing in a journey. Always do your own research and invest responsibly."
     }

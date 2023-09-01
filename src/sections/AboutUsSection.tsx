@@ -15,18 +15,14 @@ export default function AboutusSection() {
         <AboutImageWrapper />
         <AboutTextWrapper>
           <AboutTitle>
-            🌌 What is <span>WWElon?</span> 🌌
+            🌌 What is <span>XTrump?</span> 🌌
           </AboutTitle>
-          <AboutSubtitle><span>WWElon is not just a meme coin;</span></AboutSubtitle>
+          <AboutSubtitle><span>XTrump isn&apos;t your average coin;</span></AboutSubtitle>
           <AboutSubtitle>
-            It&apos;s the dazzling result of blending the limitless imagination
-            of a space pioneer with the mystique of a tech titan. Behold the
-            birth of WWElon, Experience the inception of a crypto legend as it
-            bursts forth like a comet, leaving a trail of awe and amazement. As
-            the token gains momentum, join us on an odyssey through the
-            blockchain, filled with exhilarating partnerships, out-of-this-world
-            giveaways, and events that&apos;ll outshine the brightest
-            constellations.
+            It's a wild ride into the meme-filled universe of crypto chaos! 
+            Imagine combining the charisma of The Donald himself with the frenzy of internet memes - that&apos;s XTrump in a nutshell. 
+            It&apos;s not just a coin; it&apos;s a declaration that says, &quot;I&apos;m here to shake up the crypto world and make blockchain great again!&quot; 
+            So whether you&apos;re a crypto novice or a seasoned trader, saddle up and let&apos;s explore the cosmic craziness that is XTrump! 🚀🌌🤯
           </AboutSubtitle>
           <AboutButton>Discover More</AboutButton>
         </AboutTextWrapper>

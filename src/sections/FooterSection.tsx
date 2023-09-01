@@ -41,7 +41,7 @@ export default function Footer() {
         </FooterImg>
         <FooterTextWrapper>
           <FooterTitle>
-            Copyright &#xa9; {new Date().getFullYear()} WWElon. All rights
+            Copyright &#xa9; {new Date().getFullYear()} $XTrump. All rights
             reserved.
           </FooterTitle>
           <FooterSubtitle>

@@ -19,7 +19,7 @@ export default function RoadMap() {
         "🚀 Launch and Token Creation",
         "🌟 Community Building",
         "💎 Listing and Partnerships",
-        "Get $WWElon Trending on twitter with our memetic power",
+        "Get $XTrump Trending on twitter with our memetic power",
         "1,000+ Holders",
       ],
     },
@@ -36,7 +36,7 @@ export default function RoadMap() {
       title: "Leaps 🌀",
       content: [
         "🛰️ Spacefaring Utilities",
-        "WWElon Academy",
+        "XTrump Academy",
         "🌍 Charitable Initiatives",
         "🌠 Game-Changing Features",
         "100,000+ holders",
@@ -65,7 +65,7 @@ export default function RoadMap() {
         </RoadmapTitle>
         <RoadMapP>
           &#x275D;Alright folks, grab your meme-tinted glasses and buckle up!
-          Here&apos;s a sneak peek of $WWElon&apos;s wild journey ahead. But
+          Here&apos;s a sneak peek of $XTrump&apos;s wild journey ahead. But
           remember, we&#x275C;re like that fun uncle at family gatherings &#x5f;
           always full of unexpected tricks and treats. So keep those peepers
           peeled, because the meme magic has only just begun! 😜🚀

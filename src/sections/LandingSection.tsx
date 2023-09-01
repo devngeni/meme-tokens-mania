@@ -14,13 +14,12 @@ export default function LandingSection() {
       <LandingWrapper>
         <AboutTextWrapper style={{ width: "100%" }}>
           <LandingTitle>
-            Prepare for the most epic battle of the century
+            Are you ready for a thrilling journey?
           </LandingTitle>
           <LandingSubtitle>
-            Witness Elon &#x275D;Space-King&#x275E; Musk duke it out with Mark
-            &#x275D;Lizard Lord&#x275E; Zuckerberg in the Web3 coliseum!, BSC is
-            hosting the ultimate meme coin showdown: WWElon. Grab your seat in
-            this crypto clash now! 🐍
+            Say hello to XTrump Token, the groundbreaking meme coin that&#39;s taking the crypto world by storm! 
+            Strap in and get ready to ride the rocket ship of blockchain innovation with us. 
+            Fasten your seatbelts, amigos, because we're about to launch into the meme-sterpiece of blockchain bedlam! 🚀🐱‍🐉🪙
           </LandingSubtitle>
           <LandingButton>Buy Now</LandingButton>
         </AboutTextWrapper>
