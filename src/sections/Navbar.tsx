@@ -11,23 +11,23 @@ import {
 export default function Navbar() {
   const footerData = [
     {
-      text: "about",
+      text: "About",
       link: "#aboutus"
     },
     {
-      text: "tokenomics",
+      text: "Tokenomics",
       link: "#tokenomics"
     },
     {
-      text: "roadmap",
+      text: "Roadmap",
       link: "#roadmap"
     },
     {
-      text: "how to buy",
+      text: "How to buy",
       link: "#howtobuy"
     },
     {
-      text: "contact",
+      text: "Contact",
       link: "#contact"
     }
   ];
