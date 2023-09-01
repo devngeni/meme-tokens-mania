@@ -19,7 +19,7 @@ export default function LandingSection() {
           <LandingSubtitle>
             Say hello to XTrump Token, the groundbreaking meme coin that&#39;s taking the crypto world by storm! 
             Strap in and get ready to ride the rocket ship of blockchain innovation with us. 
-            Fasten your seatbelts, amigos, because we're about to launch into the meme-sterpiece of blockchain bedlam! 🚀🐱‍🐉🪙
+            Fasten your seatbelts, amigos, because we&apos;re about to launch into the meme-sterpiece of blockchain bedlam! 🚀🐱‍🐉🪙
           </LandingSubtitle>
           <LandingButton>Buy Now</LandingButton>
         </AboutTextWrapper>
