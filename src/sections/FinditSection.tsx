@@ -45,7 +45,7 @@ export default function FinditSection() {
       <FindWrapper>
         <FindContainer>
           <LandingTitle>
-            Find XTRUMP <span>ON</span>
+            Find <span>XTRUMP</span>
           </LandingTitle>
           <FooterSubtitle style={{ flexDirection: "row" }}>
             <LogoWrapper>

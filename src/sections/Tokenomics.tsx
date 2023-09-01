@@ -1,3 +1,4 @@
+import Image from "next/image";
 import TokenomicsImage from "../../public/TokenomicsImg";
 import { RoadMapP } from "./RoadmapStyles";
 import {
@@ -26,7 +27,7 @@ export default function Tokenomics() {
           We&apos;re as transparent as Pepe&#x275C;s love for memes!&#x275E;
         </RoadMapP>
         <TokenomicsImg>
-          <TokenomicsImage />
+          <Image src="/trumpchart.svg" width={600} height={400} alt="chart" />
         </TokenomicsImg>
       </TokenomicsWrapper>
     </TokenomicsContainer>

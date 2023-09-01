@@ -54,10 +54,10 @@ export const FooterSubtitle = styled.div`
 `;
 
 export const FooterImage = styled.div`
-width: 30vw;
-height: 60vh;
+width: 40vw;
+height: 40vh;
 background: url("/cometrump.gif");
-background-size: cover;
+background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 border-radius: 12px;
