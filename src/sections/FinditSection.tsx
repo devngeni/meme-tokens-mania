@@ -20,6 +20,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function FinditSection() {
+  const handleFindIt = () => {
+    window.open("https://app.uniswap.org/#/swap", "_blank");
+  }
   return (
     <AboutContainer id="contact">
       {/* <video
@@ -71,7 +74,7 @@ export default function FinditSection() {
             <StyledText>Buy it</StyledText>
             <StyledText>HODL it</StyledText>
           </TextWrapper>
-          <LandingButton>Learn How To Buy</LandingButton>
+          <LandingButton onClick={() => handleFindIt()}>Learn How To Buy</LandingButton>
         </FindContainer>
       </FindWrapper>
     </AboutContainer>
