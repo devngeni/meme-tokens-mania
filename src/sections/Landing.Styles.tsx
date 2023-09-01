@@ -71,6 +71,7 @@ export const LandingSubtitle = styled.h2`
   }
 `;
 export const LandingButton = styled.button`
+cursor: pointer;
   background: radial-gradient(
       105.88% 119.25% at 143.13% 83.12%,
       #1a52e2 0%,
