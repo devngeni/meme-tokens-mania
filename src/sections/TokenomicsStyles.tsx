@@ -31,12 +31,17 @@ export const TokenomicsSubtitle = styled.h2``;
 export const TokenomicsText = styled.div``;
 export const TokenomicsTextWrapper = styled.div``;
 export const TokenomicsImg = styled.div`
-  width: 100%;
-  height: auto;
+  width: 40vw;
+  height: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("/trumpchart.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   @media screen and (max-width: 768px) {
+    width: 100%;
     height: 20vh;
   }
 `;
