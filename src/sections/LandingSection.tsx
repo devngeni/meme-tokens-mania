@@ -32,7 +32,7 @@ export default function LandingSection() {
           </LandingSubtitle>
           <LandingSubtitle
             onClick={() => etherscan()}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", textDecoration: "underline" }}
           >
             0x5ddaad64c2a7596915f86371f3007df8cb2a64a3
           </LandingSubtitle>
